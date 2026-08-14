@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[1,)"
+license="MIT"
+
+[[mods]]
+modId="keybindatlas"
+version="1.4.0"
+displayName="Keybind Atlas"
+description="Client-side keyboard overlay that maps vanilla and modded keybinds, shows their sources, and helps players rebind with less friction."
+
+[[dependencies.keybindatlas]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.228,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.keybindatlas]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.22)"
+ordering="NONE"
+side="BOTH"
